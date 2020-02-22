@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="99.0" prefHeight="17.0" prefWidth="160.0" text="Name" />
+      <TextField fx:id="nameField" layoutX="14.0" layoutY="116.0" />
+      <Label layoutX="225.0" layoutY="99.0" prefHeight="17.0" prefWidth="160.0" text="Surname" />
+      <TextField fx:id="surnameField" layoutX="225.0" layoutY="116.0" />
+      <Label layoutX="14.0" layoutY="170.0" prefHeight="17.0" prefWidth="160.0" text="Address" />
+      <TextField fx:id="addressField" layoutX="14.0" layoutY="187.0" />
+      <Label layoutX="225.0" layoutY="170.0" prefHeight="17.0" prefWidth="160.0" text="Age" />
+      <TextField fx:id="ageField" layoutX="225.0" layoutY="187.0" />
+      <Label layoutX="120.0" layoutY="246.0" prefHeight="17.0" prefWidth="160.0" text="Phone" />
+      <TextField fx:id="phoneField" layoutX="120.0" layoutY="263.0" />
+      <Button fx:id="saveContactButton" layoutX="155.0" layoutY="316.0" mnemonicParsing="false" onMouseClicked="#saveContact" prefHeight="27.0" prefWidth="90.0" text="Save">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelContactButton" layoutX="155.0" layoutY="351.0" mnemonicParsing="false" onMouseClicked="#cancelContact" prefHeight="27.0" prefWidth="90.0" text="Cancel">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Text layoutX="93.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Editor contact" textAlignment="CENTER" wrappingWidth="214.22900390625">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
